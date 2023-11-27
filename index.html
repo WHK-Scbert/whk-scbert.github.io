@@ -5,55 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chanon Mallanoo - Bio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Your CSS styles here */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
+            line-height: 1.6;
+            background-color: #f8f8f8;
         }
 
-        .header {
-            background-color: #007bff;
+        header {
+            background: #333;
             color: #fff;
             text-align: center;
-            padding: 40px 0;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 5px 0;
+        }
+
+        header p {
+            font-size: 1.1em;
+            margin: 5px 0;
         }
 
         .container {
-            padding: 20px;
+            width: 80%;
             margin: auto;
         }
 
-        h1,
+        .main {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
         h2 {
-            color: #007bff;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            margin-bottom: 10px;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
+            font-size: 1.5em;
+            margin-top: 20px;
+            color: #333;
         }
 
         ul {
-            list-style: none;
-            padding-left: 0;
+            list-style-type: none;
+            padding: 0;
         }
 
         ul li {
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
 
         a {
@@ -68,24 +71,37 @@
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <h1>Chanon Mallanoo</h1>
         <p>Electrical and Computer Engineering Major | Cyber Science Major</p>
         <p>United States Air Force Academy</p>
-    </div>
+    </header>
 
     <div class="container">
-        <!-- Start adding your content here -->
-        <h2>Research Interests</h2>
-        <p>Artificial Intelligence, Machine Learning, Robotics, Autonomous Systems, Computer Architecture, and Health Care Technology.</p>
+        <div class="main">
+            <h2>Research Interests</h2>
+            <p>Artificial Intelligence, Machine Learning, Robotics, Autonomous Systems, Computer Architecture, and Health Care Technology.</p>
 
-        <!-- Add other sections following the structure of the provided Elon Musk biography -->
+            <!-- Add rest of the content from previous examples -->
+            <h2>Education</h2>
+            <ul>
+            <li>Electrical and Computer Engineering, Expected May 2024 <br>Major GPA 4.0/4.0</li>
+            <li>Double major in Cyber Science, Expected May 2024 <br>Major GPA: 3.953/4.0</li>
+            </ul>
 
+            <h2>Academic and Research Experience</h2>
+            <h3>FaceX | CEO/Software Engineer @ facex.ai (Feb 2023 - Present)</h3>
+            <ul>
+                <li>Built a Facial Recognition Software for parents and cadets using a 1M+ database provided by the US Air Force Academy.</li>
+                <li>Expanded capabilities for potential use in finding lost children in public spaces.</li>
+                <!-- Add more details -->
+            </ul>
+
+            <h2>Contact</h2>
+            <p>Email: C24Chanon.Mallanoo@afacademy.af.edu<br>
+                Phone: 720-309-8287</p>
+        </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
